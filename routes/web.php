@@ -15,3 +15,4 @@ use App\Http\Controllers\TrainController;
 */
 
 Route::get('/', [TrainController::class, 'show'])->name('welcome');
+Route::get('/all', [TrainController::class, 'index'])->name('welcome');

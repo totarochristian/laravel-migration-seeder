@@ -12,6 +12,7 @@ $fa-font-path: "../fonts/webfonts" !default;
 main>div{
     width: 100%;
     height: 100vh;
+    overflow-y: auto;
 }
 .train{
     border: 1px solid black;

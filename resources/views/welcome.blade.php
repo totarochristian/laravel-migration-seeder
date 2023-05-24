@@ -16,7 +16,6 @@
 </head>
 
 <body>
-
     <main>
         <div class="p-4 d-flex justify-content-center align-items-center gap-4 flex-wrap">
             @foreach ($trains as $train)
